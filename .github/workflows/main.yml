@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: REN's Pipeline
 
 on:
   push:
