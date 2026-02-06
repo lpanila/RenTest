@@ -1,0 +1,58 @@
+{
+    "info": {
+        "_postman_id": "12345678-abcd-ef01-2345-6789abcdef01",
+        "name": "Sample API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get Example",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://api.example.com/hello",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "example",
+                        "com"
+                    ],
+                    "path": [
+                        "hello"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "POST Sample",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"name\": \"John Doe\", \"role\": \"QA Engineer\"}"
+                },
+                "url": {
+                    "raw": "https://api.example.com/users",
+                    "protocol": "https",
+                    "host": [
+                        "api",
+                        "example",
+                        "com"
+                    ],
+                    "path": [
+                        "users"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
